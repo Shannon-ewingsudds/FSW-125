@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const recycledItems = require('./week3/routes/recycledItems');
+const recycledItems = require('./routes/recycledItems');
 
 const PORT = 3000;
 
