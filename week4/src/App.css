@@ -1,0 +1,14 @@
+h1, p{
+	margin: 5px; 
+}
+item-container{
+display: flex;
+flex-direction: column;
+margin: 0 32px;
+}
+
+.item{
+	border: 1px solid #333;
+	padding: 10px;
+	margin: 5px;
+}
