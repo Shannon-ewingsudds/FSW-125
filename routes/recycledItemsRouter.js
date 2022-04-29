@@ -41,3 +41,4 @@ recycledItemsRouter
         res.send(`Successfully updated the list`);
 
     })
+module.exports = recycledItemsRouter;

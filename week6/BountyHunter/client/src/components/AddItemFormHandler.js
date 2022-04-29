@@ -5,7 +5,7 @@ function AddItemFormHandler({ submit, btnText, name, description, _id}) {
     const [inputs, setInputs] = useState(initialInputs);
 
     const handleChange = (e) => {
-        const {name, value} = e.target;
+        const { name, value } = e.target;
         setInputs(prevInputs => ({...prevInputs, [name]: value}));
     }
     const handleSubmit = (e) => {
