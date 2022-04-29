@@ -16,6 +16,19 @@ recycledItemsRouter
         res.send(items);
     })
 
+    .get('/:recycledId', (req, res) => {
+        const recycleId = req.params.recycledId;
+        const oneItem = items.find(item => item._id === recycleId);
+
+        res.send(oneItem);
+    })
+    
+    .get('/search/id', (req, res) => {
+        const recycleIds = req.query._id;
+        const filteredrecycled = items.filter(recycled=> recycled.id === recycleIds);
+     
+        res.send(filteredrecycled)
+     })
      
     .post('/', (req, res) => {
         const newRecycled = req.body;

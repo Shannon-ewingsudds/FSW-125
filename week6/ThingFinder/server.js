@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 
-const ThingFinderRouter = require('./routes/ThingFinderRouter');
+const ThingFinderRouter = require('./routes/thingFinderRouter');
 
 const PORT = 9000;
 
