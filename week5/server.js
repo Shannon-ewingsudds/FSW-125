@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 
-const ThingFinderRouter = require('./routes/ThingFinderRouter');
+const recycledItemsRouter = require('./routes/recycledItemsRouter');
 
 const PORT = 9000;
 
@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(morgan('dev'));
 
 //route
-app.use('/items', ThingFinderRouter);
+app.use('/itemsIntake', recycledItemsRouter);
 
 //server start-up logic
 app.listen(PORT, () => {
