@@ -1,8 +1,40 @@
+
 html {
   margin: 0;
   padding: 0;
-  font-family: 'Source Code Pro', monospace;
-  background-color: rgba(0, 83, 156, 0.822);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #51E2F5;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 3rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.search-button {
+  border-radius: .5rem;
+  background-color: #9df9ef;
+  padding: .5rem;
+  opacity: 0.6;
+  transition: 0.3s;
+  margin: .5rem;
+}
+
+.search-button:hover {
+  opacity: 20;
+}
+
+.search-button:active {
+  transform: translateY(4px);
 }
 .bags {
   display: grid;
@@ -12,7 +44,7 @@ html {
 .submit-button {
   border-radius: 5px;
   padding: 10px;
-  grid-column: 1/-1;
+  grid-column: 1/-1;  
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
@@ -21,7 +53,7 @@ html {
   transition: 0.3s;
 }
 .submit-button:hover {
-  background-color: green;
+  background-color: #9DF9EF;
   opacity: 1;
 }
 .submit-button:active {
@@ -36,7 +68,7 @@ html {
 }
 
 .inputs:hover {
-  border: 2px solid rgb(47, 130, 255);
+  border: 2px solid #51E2F5;
 }
 
 .add-form {
@@ -50,17 +82,17 @@ html {
   padding: 15px;
   margin: 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #A28089;
   transition: 0.3s;
-  background-color: rgba(238, 164, 127, 0.856);
+  background-color: #ffa8b6;
 }
 
 .bag-wrapper:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 8px 16px 0 black;
 }
 
 .delete-button {
-  background-color: rgba(255, 0, 0, 0.74);
+  background-color: #a28089;
   border-radius: 5px;
   padding: 8px;
   margin: 5px 20px 5px 5px;
@@ -79,24 +111,22 @@ html {
 .add-bag-section {
   border: 2px solid black;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 black;
   transition: 0.3s;
   margin: 15px;
   padding: 25px;
-  background-color: rgba(238, 164, 127, 0.856);
+  background-color: #ffa8B6;
 }
 
 .add-bag-section:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 8px 16px 0 black;
 }
 
-.header {
-  text-align: center;
-}
+
 
 .edit-button {
   border-radius: 5px;
-  background-color: rgba(21, 139, 175, 0.801);
+  background-color: #51e2f5;
   padding: 8px;
   opacity: 0.6;
   transition: 0.3s;
@@ -112,7 +142,7 @@ html {
 
 .close-button {
   border-radius: 5px;
-  background-color: rgba(0, 128, 0, 0.486);
+  background-color: #51e2f5;
   padding: 8px;
   opacity: 0.6;
   transition: 0.3s;
@@ -136,31 +166,9 @@ html {
   padding: 10px;
   margin: 10px;
   font-size: large;
-  background-color: rgb(247, 223, 211);
+  background-color: #FFF5EE;
 }
 
-.search {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.search-button {
-  border-radius: 5px;
-  background-color: lightgreen;
-  padding: 8px;
-  opacity: 0.6;
-  transition: 0.3s;
-  margin: 5px;
-}
-
-.search-button:hover {
-  opacity: 1;
-}
-
-.search-button:active {
-  transform: translateY(4px);
-}
 
 .input-bar {
   padding: 8px;

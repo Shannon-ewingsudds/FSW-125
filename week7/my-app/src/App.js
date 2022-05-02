@@ -61,7 +61,9 @@ function App() {
 
   return (
     <>
-    <h1 className = 'header'>Purse Closet</h1>
+    <h1 className = 'header'>Purse Closet<style>
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+</style> </h1>
     <div className='search'>
       <SearchBar searchBags = {searchBags}/>
     </div>
