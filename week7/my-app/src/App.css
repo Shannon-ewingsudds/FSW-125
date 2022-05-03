@@ -36,19 +36,16 @@ html {
 .search-button:active {
   transform: translateY(4px);
 }
-.bags {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
+
 
 .submit-button {
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: .5rem;
+  padding: 1rem;
   grid-column: 1/-1;  
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   opacity: 0.6;
   transition: 0.3s;
 }
@@ -73,10 +70,13 @@ html {
 
 .add-form {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
 }
-
+.bags {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 .bag-wrapper {
   border: 2px solid black;
   padding: 15px;
@@ -158,6 +158,7 @@ html {
 
 .bag-title {
   text-align: center;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .bag-sizes {

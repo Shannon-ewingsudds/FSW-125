@@ -39,8 +39,8 @@ const bags = [
     {
         year: 1921,
         founder: "Gucci",
-        model: "IS300",
-        material: "GG Marmont",
+        model: "GG Marmont",
+        material: "Leather",
         color: "Blue",
         sizes: ["Supper Mini, ", "Mini, ", "Small, ", "Medium", ],
         price: 2590,
