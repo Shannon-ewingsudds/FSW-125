@@ -12,7 +12,6 @@ html {
   font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 3rem;
 }
-
 .search {
   display: flex;
   flex-direction: row;
@@ -25,25 +24,14 @@ h3{
 }
 .search-button {
   border-radius: .5rem;
-  background-color: #9df9ef;
+  background-color: #ffa8b6;
   padding: .5rem;
-  opacity: 0.6;
-  transition: 0.3s;
   margin: .5rem;
-}
-
-.search-button:hover {
-  opacity: 20;
-}
-
-.search-button:active {
-  transform: translateY(4px);
 }
 .bags {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-
 .submit-button {
   border-radius: .5rem;
   padding: 1rem;
@@ -52,8 +40,6 @@ h3{
   margin-right: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  opacity: 0.6;
-  transition: 0.3s;
 }
 .submit-button:hover {
   background-color: #9DF9EF;
@@ -62,24 +48,20 @@ h3{
 .submit-button:active {
   transform: translateY(4px);
 }
-
 .inputs {
   border-radius: 1rem;
   text-align: center;
   padding: 1rem;
   margin: .5rem;
 }
-
 .inputs:hover {
   border: 2px solid #51E2F5;
 }
-
 .add-form {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: .2rem;
 }
-
 .bag-wrapper {
   border: .3rem solid black;
   padding: 1rem;
@@ -89,11 +71,9 @@ h3{
   transition: 0.3s;
   background-color: #ffa8b6;
 }
-
 .bag-wrapper:hover {
   box-shadow: 1rem 1rem 1rem 0 rgb(5, 2, 2);
 }
-
 .delete-button {
   background-color: #a28089;
   border-radius: .5rem;
@@ -115,14 +95,9 @@ h3{
   padding: 2rem;
   background-color: #ffa8B6;
 }
-
 .add-bag-section:hover {
   box-shadow: 1rem 1rem 1rem 0 black;
 }
-
-
-
-
 .close-button {
   border-radius: 5px;
   background-color: #51e2f5;
@@ -130,20 +105,16 @@ h3{
   opacity: 0.6;
   transition: 0.3s;
 }
-
 .close-button:hover {
   opacity: 1;
 }
-
 .close-button:active {
   transform: translateY(4px);
 }
-
 .bag-title {
   text-align: center;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
-
 .bag-sizes {
   border: 1px solid black;
   border-radius: 1rem;
@@ -152,8 +123,6 @@ h3{
   font-size: large;
   background-color: #FFF5EE;
 }
-
-
 .input-bar {
   padding: .5rem;
   border:  solid black;
