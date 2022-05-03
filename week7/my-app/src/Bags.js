@@ -9,7 +9,7 @@ function Bags({bag, deleteBag, editBag}){
         <div className = 'bag-wrapper'>
             { !editToggle ?
                 <>
-                    <h1 className = 'bag-title'>--- {bag.year} {bag.founder} {bag.model} ---</h1>
+                    <h1 className = 'bag-title'> {bag.year} {bag.founder} {bag.model}</h1>
                     <div className = 'bag-sizes'>
                         <p>Color: {bag.color}</p>
                         <p>Material: {bag.material}</p>
