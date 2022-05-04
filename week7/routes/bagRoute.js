@@ -60,7 +60,7 @@ bagRoute
 
         if (matches.length === 0){
             const error = new Error('This bag founder was not found.');
-            res.status(404); // Not found. 
+            res.status(500); // Not found. 
             return next(error);
         };
 
